@@ -28,7 +28,7 @@ The difference between the two present values comprises the seasonality adjustme
 ## Deflation Floor
 A deflation floor put option is embedded in the Euro ILBs granted by the fact that the inflation-indexed principal repayment amount cannot fall below the original par value (corresponding to the dated date of inflation index ratio of 1). The option is priced using the log-normal (1976) Black Scholes model.
 ## Complementary Files
-Additionally, the repository includes a detailed Excel deflation floor put option value calculator (deflation_floor.xlsx) and a zero SOFR curve boostrapped from quoted SOFR swap contracts, replicating the Bloomberg Terminal methodology (ois_sofr_swap_curve.ipynb).
+Additionally, the repository includes a detailed Excel deflation floor put option value calculator (deflation_floor.xlsx) as well as an inflation-protected bond pricing primer, demonstrating ILB mechanics on a real German government bond (finmat_ilb.xlsx) and a zero SOFR curve boostrapped from quoted SOFR swap contracts, replicating the Bloomberg Terminal methodology (ois_sofr_swap_curve.ipynb).
 
 
 ## References
